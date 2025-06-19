@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int a,b;
+    char var;
+    printf("Enter the value for a and b:");
+    scanf("%d %d",&a,&b);
+    printf("var:");
+    scanf(" %c", &var);
+    
+    switch (var) {
+    case '+':
+        printf("Add:%d",a+b);
+        break;
+    case '-':
+        printf("Sub:%d",a-b);
+        break;
+    case '*':
+        printf("Mul:%d",a*b);
+        break;
+    case '/':
+        printf("Div:%d",a/b);
+        break;
+    }
+
+}
+    
